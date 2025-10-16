@@ -21,10 +21,10 @@ Returns:
 
 🧩 Setup Instructions
 # clone the repo
-git clone https://github.com/4tune05/backend-wizard-profile.git
+git clone https://github.com/Fortzy05/hng-backend-profile.git
 
 # navigate into the project
-cd backend-wizard-profile
+cd hng-backend-profile
 
 # install dependencies
 npm install
