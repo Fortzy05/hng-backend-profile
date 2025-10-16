@@ -34,21 +34,15 @@ It’s a simple **Node.js/Express REST API** that returns developer profile info
   "timestamp": "2025-10-16T14:12:15.584Z",
   "fact": "Cats sleep for 70% of their lives."
 }
-```
 
+🧩 Setup Instructions
+# clone the repo
+git clone https://github.com/4tune05/backend-wizard-profile.git
 
-### 🛠️ Installation & Setup
+# navigate into the project
+cd backend-wizard-profile
 
-#### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/Fortzy05/hng-backend-profile.git
-cd hng-backend-profile
-```
-
-#### 2️⃣ Install dependencies
-
-```bash
+# install dependencies
 npm install
 ```
 
