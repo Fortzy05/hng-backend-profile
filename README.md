@@ -126,7 +126,7 @@ hng-backend-profile/
 
 ### 🌍 Deployment
 
-🔗 Live API URL: https://your-deployed-app-url/me
+🔗 Live API URL: https://hng-backend-profile-production.up.railway.app/me
 
 
 
