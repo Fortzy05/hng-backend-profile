@@ -23,7 +23,7 @@ It’s a simple **Node.js/Express REST API** that returns developer profile info
 
 **Example Response:**
 
-```json
+json
 {
   "status": "success",
   "user": {
@@ -37,39 +37,39 @@ It’s a simple **Node.js/Express REST API** that returns developer profile info
 
 🧩 Setup Instructions
 # clone the repo
-git clone https://github.com/4tune05/backend-wizard-profile.git
+git clone https://github.com/fortzy05/hng-backend-profile.git
 
 # navigate into the project
-cd backend-wizard-profile
+cd hng-backend-profile
 
 # install dependencies
 npm install
-```
+
 
 #### 3️⃣ Create a `.env` file in the root directory
 
-```bash
+bash
 EMAIL=omorodion.fortune@gmail.com
 NAME=Omorodion Fortune
 STACK=Node.js/Express
 PORT=3000
-```
+
 
 #### 4️⃣ Run the server
 
 For development:
 
-```bash
+bash
 npm run dev
-```
+
 
 Or production:
 
-```bash
+bash
 npm start
-```
 
-Now visit 👉 `http://localhost:3000/me`
+
+Now visit 👉 http://localhost:3000/me
 
 
 ### 🧠 Technologies Used
@@ -87,13 +87,13 @@ Now visit 👉 `http://localhost:3000/me`
 
 #### Successful Request
 
-```bash
+bash
 curl http://localhost:3000/me
-```
+
 
 **Response:**
 
-```json
+json
 {
   "status": "success",
   "user": {
@@ -104,13 +104,13 @@ curl http://localhost:3000/me
   "timestamp": "2025-10-16T14:12:15.584Z",
   "fact": "A cat can jump up to six times its length in one leap."
 }
-```
+
 
 
 
 ### 📁 Project Structure
 
-```
+
 hng-backend-profile/
 ├── src/
 │   ├── app.js
@@ -121,7 +121,7 @@ hng-backend-profile/
 ├── package.json
 ├── package-lock.json
 └── README.md
-```
+
 
 
 ### 🌍 Deployment
